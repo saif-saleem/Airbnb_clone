@@ -1,0 +1,292 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.upper{
+    background-color: black;
+    width: 100%;
+    padding-bottom: 40px;
+    /* height: 400px; */
+}
+.header{
+    width: 92%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.nav_bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav2{
+    align-items: center;
+    display: flex;
+    width: 265px;
+    justify-content: space-between;
+
+}
+
+.nav1{
+    display: flex;
+    width: 420px;
+    justify-content: space-around;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.search_nav{
+    height: 50px;
+    width: 80%;
+    margin: auto;
+    background-color: aqua;
+}
+
+.big_card{
+    background-image: url(./Big\ Card.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 699px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-top: 20px;
+}
+
+#flexible_btn{
+    margin-bottom: 87px;
+    /* padding-bottom: 53px; */
+    width: 142px;
+    height: 62px;
+    border-radius: 30px;
+    border: none;
+    
+    background: transparent;
+
+}
+
+.card_sec{
+    width: 92%;
+    margin: auto;
+}
+
+.card{
+    height: 365px;
+    /* background-color: blue; */
+    width: 22%;
+    display: flex;
+    border-radius: 5px;
+    flex-direction: column;
+}
+
+.c11{
+    background-color: rgba(204, 45, 74, 1);
+}
+.c12{
+    background: rgba(188, 26, 110, 1);
+
+}
+.c13{
+    background: rgba(222, 49, 81, 1);
+
+}
+.c14{
+    background: rgba(217, 59, 48, 1);
+
+}
+
+.n1{
+font-size: 36px;
+margin-left: 15px;
+font-weight: 500;
+line-height: 44px;
+letter-spacing: 0em;
+text-align: left;
+color: white;
+margin-top: 10px;
+margin-bottom: 10px;
+
+}
+
+.miles{
+font-size: 18px;
+margin-left: 15px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+color: white;
+
+}
+
+.card_cont1{
+    display: flex;
+    justify-content: space-between
+}
+.card_cont2{
+    display: flex;
+    justify-content: space-between
+}
+
+.card1{
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.kard{
+    display: flex;
+    align-items: center;
+    height: 677px;
+    border-radius: 9px;
+    background-color: blue;
+    width: 48%;
+}
+
+.card3{
+    display: flex;
+    width: 100%;
+    padding-bottom: 85px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.shop{
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    padding-top: 40px;
+}
+
+.cardimg{
+    height: 200px;
+    width: 60%;
+
+}
+
+.card4{
+    background-image:url(./hosting.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 697px; 
+    display: flex;
+    align-items: end;
+}
+
+#superhost{
+    height: 61px;
+    width: 191px;
+    margin-left: 87px;
+    margin-bottom: 86px;
+    border: none;
+    border-radius: 20px;
+    background: transparent;
+}
+
+.genre{
+    justify-content: space-between;
+    display: flex;
+}
+
+footer{
+   
+    background-color: rgba(249, 250, 251, 1);
+
+}
+
+.terms{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hyper{
+    margin-top: 13px;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(75, 85, 99, 1);
+
+}
+.hype{
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(75, 85, 99, 1);
+
+}
+
+.sup{
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: black;
+
+}
+
+.heading{
+font-size: 24px;
+font-weight: 500;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: left;
+margin-bottom: 20px;
+}
+
+.coutries{
+    margin-top: 100px;
+}
+
+#learn{
+    height: 50px;
+    width: 120px;
+    background: black;
+    color: white;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+
+
+.kard2{
+    background-image: url(./c2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.kard1{
+    background-image: url(./c1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#exp{
+    width: 154px;
+    height: 61px;
+    margin-left: 86px;
+    margin-bottom: 151px;
+    border: none;
+    background-color: transparent;
+    border-radius: 5px;
+}
+#onexp{
+    width: 154px;
+    height: 61px;
+    margin-left: 86px;
+    margin-bottom: 151px;
+    border: none;
+    background-color: transparent;
+    border-radius: 5px;
+}

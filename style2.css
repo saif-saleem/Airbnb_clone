@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.upper{
+    /* background-color: black; */
+    width: 100%;
+    padding-bottom: 40px;
+    /* height: 400px; */
+}
+.header{
+    width: 92%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.nav_bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav2{
+    align-items: center;
+    display: flex;
+    width: 265px;
+    justify-content: space-between;
+    
+
+}
+
+.nav1{
+    display: flex;
+    width: 420px;
+    justify-content: space-around;
+}
+
+#lb1{
+    align-items: center;
+    display: flex;
+    border: 1px solid rgba(229, 231, 235, 1);
+    width: 300px;
+    justify-content: space-between;
+    border-radius: 25px;
+}
+
+.review{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.roomimg{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.rooms{
+    display: flex;
+    width: 52%;
+    justify-content: space-around;
+}
+
+.room1{
+    width: 49%;
+}
+
+.rooms2{
+    width: 47%;
+}
+.rooms3{
+    width: 47%;
+}
+
+.middle{
+    width: 92%;
+    margin: auto;
+}
+
+.rent1{
+    width: 100%;
+}
+
+.rent{
+    width: 60%;
+    display: flex;
+}
+
+.user{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fe{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    align-items: center;
+    display: flex;
+}
+
+.line{
+    border: 1px solid rgba(229, 231, 235, 1)
+}
+
+.off{
+   width: 100%;
+   margin-bottom: 30px;
+}
+
+#amen{
+    background-color: transparent;
+    color: black;
+    border-radius: 10px;
+    height: 35px;
+    width: 150px;
+    margin-bottom: 30px;
+}
+
