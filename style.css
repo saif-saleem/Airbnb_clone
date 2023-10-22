@@ -12,6 +12,8 @@
     padding-bottom: 40px;
     /* height: 400px; */
 }
+
+
 .header{
     width: 92%;
     margin: auto;
@@ -24,15 +26,29 @@
     align-items: center;
 }
 
-.nav2{
-    align-items: center;
+#lb1{
     display: flex;
-    width: 265px;
-    justify-content: space-between;
-
+    width: 43%;
+    background: white;
+    border-radius: 20px;
 }
 
 .nav1{
+    /* width: 100% ; */
+    position: relative;
+    left: 45px;
+    display: flex;
+    width: 420px;
+    justify-content: space-around;
+}
+
+.nav2{
+    display: flex;
+    align-items: center;
+}
+
+.nav11{
+    width: 100% !important;
     display: flex;
     width: 420px;
     justify-content: space-around;

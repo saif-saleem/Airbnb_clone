@@ -1,0 +1,226 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+.header{
+    width: 92%;
+    margin: auto;
+    padding-top: 20px;
+    margin-bottom: 30px;
+
+}
+
+.nav_bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav2{
+    align-items: center;
+    display: flex;
+    width: 265px;
+    justify-content: space-between;
+    
+
+}
+
+.nav1{
+    display: flex;
+    width: 420px;
+    justify-content: space-around;
+}
+
+#lb1{
+    align-items: center;
+    display: flex;
+    border: 1px solid rgba(229, 231, 235, 1);
+    width: 450px;
+    justify-content: space-between;
+    border-radius: 25px;
+}
+
+.sorting{
+    display: flex;
+}
+
+.sorting{
+    margin-top: 30px;
+    width: 75%;
+justify-content: space-between;
+}
+
+.sort1{
+    color: rgba(55, 65, 81, 1);
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid rgba(229, 231, 235, 1)
+}
+
+.sort+p{
+    color: rgba(55, 65, 81, 1);
+    
+}
+
+.hero{
+
+    width: 92%;
+    margin: auto;
+    display: flex;
+ 
+    
+}
+
+.hd{
+    color: rgba(107, 114, 128, 1);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 20px;
+    
+    
+}
+.maps{
+    width: 35%;
+}
+
+.card_section{
+    width: 65%;
+   display: flex;
+   /* background-color: aquamarine; */
+   flex-direction: column;
+}
+.hr{
+    margin-bottom: 20px;
+    height: 5px;
+    width: 100%;
+    background-color: aliceblue;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+}
+.card_det{
+    margin-top: 5px;
+    display: flex;
+    /* flex-direction: column; */
+    width: 100%;
+    height: 60px;
+    display: flex;
+    margin-bottom: 40px;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.card_img{
+    height: 250px;
+    width: 350px;
+}
+
+.cont1{
+    display: flex;
+    width: 100%;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+}
+
+.cardhd{
+    font-size: 16px;
+    font-weight: 400;
+    color:rgba(107, 114, 128, 1) ;
+    margin-bottom: 12px;
+    
+}
+
+.hotelnm{
+    
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(55, 65, 81, 1);
+
+    
+}
+
+.ftsp{
+    margin-right: 10px;
+font-size: 14px;
+font-weight: 400;
+color: rgba(107, 114, 128, 1);
+
+
+}
+
+.chr{
+    margin-top: 40px;
+    width: 10%;
+    border: 1px solid rgba(229, 231, 235, 1)
+}
+
+.feat{
+
+}
+
+.ratetext{
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(55, 65, 81, 1);
+
+}
+
+.rating{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rate{
+    width: 140px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.right{
+    margin-left: 50px;
+    width: 100%;
+}
+
+.line{
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 1px;
+    background: rgba(229, 231, 235, 1);
+}
+
+.night{
+    
+font-size: 14px;
+font-weight: 400;
+
+color: rgba(55, 65, 81, 1);
+
+}
+
+.price{
+    width: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dol{
+ 
+font-size: 18px;
+font-weight: 500;
+color: rgba(55, 65, 81, 1);
+
+}
+
