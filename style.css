@@ -28,7 +28,7 @@
 
 #lb1{
     display: flex;
-    width: 43%;
+    width: 100%;
     background: white;
     border-radius: 20px;
     align-items: center;
