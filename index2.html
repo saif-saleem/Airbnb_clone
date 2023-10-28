@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style2.css">
     <title>Document</title>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB0YiTHf5EdxF_PbGP6NTg3d8hRbaQmaWc&callback=initMap" async defer></script>
 </head>
 <body>
     <section class="upper">
@@ -34,18 +35,18 @@
   
 
         <div class="detail">
-            <p>Bordeaux Getaway</p>
+            <!-- <p>Bordeaux Getaway</p>
             <div class="review">
                 <span><img src="./star.svg" alt="">5.0 . </span>
                 <span>7 reivews . </span>
                 <span><img src="./badge.svg" alt="">Superhost . </span>
                 <span>Bordeaux, France</span>
-            </div>
+            </div> -->
         </div>
 
         <div class="roomimg">
-          <div class="room1"><img src="./room1.svg" alt="" style="    width: 100%;"></div> 
-          <div class="rooms">
+          <!-- <div class="room1"><img src="./room1.svg" alt="" style="    width: 100%;"></div>  -->
+          <!-- <div class="rooms">
             <div class="rooms2">
                 <div class="room2"><img src="./room2.svg" alt=""  style="    width: 100%;"></div>
                 <div class="room3"><img src="./room3.svg" alt=""  style="    width: 100%;"> </div>
@@ -54,7 +55,9 @@
                 <div class="room4"><img src="./room4.svg" alt=""  style="    width: 100%;"></div>
                 <div class="room5"><img src="./room5.svg" alt=""  style="    width: 100%;"></div>
             </div>
-          </div> 
+          </div>  -->
+
+
         </div>
 
 
@@ -70,8 +73,11 @@
                 <p>Entire rental unit hosted by Ghazal</p>
             </div>
             <span><img src="./Avatar.svg" alt=""></span>
-            </div>
+           
+        
+        </div>
 
+        
             <div class="features">
                 <div class="fe">
                     <span style="    margin-right: 15px;
@@ -110,10 +116,10 @@
             <div class="line"></div>
 
             <div class="thoery">
-                <p style="margin-top: 30px;">Come and stay in this superb duplex T2, in the heart of the historic center of Bordeaux.
+                <!-- <p style="margin-top: 30px;">Come and stay in this superb duplex T2, in the heart of the historic center of Bordeaux.
                     Spacious and bright, in a real Bordeaux building in exposed stone, you will enjoy all the charms of the city thanks to its ideal location. Close to many shops, bars and restaurants, you can access the apartment by tram A and C and bus routes 27 and 44.
                     <br>...</p><br><br>
-                    <p style="margin-bottom: 30px;"><a href="" style="color: black; ">Show more ></a></p>
+                    <p style="margin-bottom: 30px;"><a href="" style="color: black; ">Show more ></a></p> -->
             </div>
 
             <div class="line"></div>
@@ -126,7 +132,7 @@
                 letter-spacing: 0em;
                 text-align: left;
                 ">Where you’ll sleep</p>
-                <span><img src="./room6.svg" alt=""></span>
+                <div id="sleepbed"></div>
                 <p style="
                 font-size: 16px;
                 font-weight: 500;
@@ -140,12 +146,12 @@
                 line-height: 20px;
                 letter-spacing: 0em;
                 text-align: left;
-                ">1 queen bed</p>
+                " id="bed"></p>
             </div>
 
             <div class="line"></div>
 
-            <div class="offers">
+            <div class="offers">    
                 <p style="margin-top: 30px;  margin-bottom: 20px;
                 font-size: 24px;
                 font-weight: 500;
@@ -213,10 +219,131 @@
             </div>
 
         </div>
-        <div class="rent2"></div>
-    </div>
-</section>
+        <div class="rent2">
 
+            <div class="pricehead">
+                <div class="price1"></div>
+                <div class="pricerate"></div>
+            </div>
+
+            <div class="duration">
+                <div class="durationtop">
+                    <div class="duration1"></div>
+                    <div class="duration2"></div>
+                </div>
+                <div class="durationdown"></div>
+            </div>
+            
+            <div class="reserve">
+                <button class="resbtn">Reserve</button>
+                <div class="res">You won’t be charged yet</div>
+            </div>
+
+            <div class="calculation">
+                <div class="cal1"><span id="side11"></span><span id="side21"></span></div>
+                <div class="cal2"><span id="side22"><p style="
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    letter-spacing: 0em;
+                    text-align: left;">Weekly discount</p></span><span id="side31" style="color: rgba(16, 185, 129, 1);">-$28</span></div>
+                <div class="cal3"><span id="side33"><p style="
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    letter-spacing: 0em;
+                    text-align: left;">Cleaning fee</p></span><span id="side41"><p style="
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    letter-spacing: 0em;
+                    text-align: left;">$62</p></span></div>
+                <div class="cal4"><span id="side44"><p style="
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    letter-spacing: 0em;
+                    text-align: left;">Service fee</p></span><span id="side51"><p style="
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    letter-spacing: 0em;
+                    text-align: left;">$83</p></span></div>
+                <div class="cal5"><span id="side55"><p style="
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    letter-spacing: 0em;
+                    text-align: left;">Occupancy taxes and fees</p></span><span id="side61"></span></div>
+            </div>
+            <div class="hr"></div>
+            <div class="total">
+                <span><p style="
+                    font-size: 16px;
+                    font-weight: 550;
+                    line-height: 24px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    ">Total</p></span>
+                <span id="tot"></span>
+            </div>
+
+        </div>
+    </div>
+</section>  
+
+
+<div class="reviewhr"></div>
+<section class="review_section"></section>
+<div class="reviewhr"></div>
+
+<div class="location">
+    <p class="where">
+        Where you’ll be
+    </p>
+    <div id="map">
+
+    </div>
+
+    <p id="locatdesc"></p>
+    <p id="locatdesc2">Very dynamic and appreciated district by the people of Bordeaux thanks to rue St James and place Fernand Lafargue. Home to many historical monuments such as the Grosse Cloche, the Porte de Bourgogne and the Porte Cailhau, and cultural sites such as the Aquitaine Museum.</p>
+</div>
+<div class="reviewhr"></div>
+
+<div class="host">
+    <div class="hostcont">
+        <div class="hostimg">
+            <div class="dp"></div>
+            <div class="dpname"></div>
+        </div>
+        <div class="hostdesc"><p class="de">Superhosts are experienced, highly rated hosts who are committed to providing great stays for guests.</p>
+        <p class="de">Response rate: 100%</p>
+    <p class="de">Response time: within an hour</p></div>
+        <button class="contact">Contact Host</button>
+    </div>
+</div>
+
+<div class="reviewhr"></div>
+
+<div class="things">
+    <img src="./Things to know.svg" alt="">
+</div>
+
+<footer class="foot">
+    <div class="foot1">
+        <img src="./Airbnb Footer.svg" alt="" style="    position: relative;
+        right: 97px;">
+    </div>
+    <div class="foot2">
+        <img src="./Airbnb Footer 2.svg" alt=""style="    position: relative;
+        right: 97px;">
+    </div>
+</footer>
+
+<script src="./script.js"></script>
+<script src="./script3.js"></script>
+<script src="./script4.js"></script>
+<script src="./script2.js"></script>
 
 </body>
 </html>

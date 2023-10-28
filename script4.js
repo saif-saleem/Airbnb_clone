@@ -1,15 +1,15 @@
-const url = 'https://airbnb13.p.rapidapi.com/search-location?location=Paris&checkin=2024-09-16&checkout=2024-09-17&adults=1&children=0&infants=0&pets=0&page=1&currency=USD';
+const urln = 'https://airbnb13.p.rapidapi.com/search-location?location=Paris&checkin=2024-09-16&checkout=2024-09-17&adults=1&children=0&infants=0&pets=0&page=1&currency=USD';
 const options = {
 	method: 'GET',
 	headers: {
-		'X-RapidAPI-Key': 'c512195f5amsh9a60bac6de39000p12fee2jsn5a6ae20c69bb',
+		'X-RapidAPI-Key': '3fa888913fmsh35518b0cfe888efp12bddajsnb256112ef398',
 		'X-RapidAPI-Host': 'airbnb13.p.rapidapi.com'
 	}
 };
 
 async function getData(){
 try {
-	const response = await fetch(url, options);
+	const response = await fetch(urln, options);
 	const result = await response.json();
 	console.log(result.results);
     renderData(result.results);

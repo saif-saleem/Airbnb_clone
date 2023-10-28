@@ -105,6 +105,7 @@ justify-content: space-between;
 .cards{
     display: flex;
     flex-direction: column;
+   
 }
 .card_det{
     margin-top: 5px;
@@ -198,7 +199,8 @@ color: rgba(107, 114, 128, 1);
     margin-top: 30px;
     margin-bottom: 30px;
     height: 1px;
-    background: rgba(229, 231, 235, 1);
+    border: 1px solid rgba(229, 231, 235, 1);
+    
 }
 
 .night{

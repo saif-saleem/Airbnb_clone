@@ -92,10 +92,10 @@ justify-content: space-between;
 }
 
 .card_section{
-    width: 65%;
+    /* width: 65%; */
    display: flex;
    /* background-color: aquamarine; */
-   flex-direction: column;
+   /* flex-direction: column; */
 }
 .hr{
     margin-bottom: 20px;
@@ -107,7 +107,14 @@ justify-content: space-between;
 .cards{
     display: flex;
     flex-direction: column;
+    height: 30vw;
+    overflow: scroll;
 }
+
+.cards::-webkit-scrollbar {
+    display: none;
+  }
+  
 .card_det{
     margin-top: 5px;
     display: flex;
@@ -166,8 +173,8 @@ color: rgba(107, 114, 128, 1);
     border: 1px solid rgba(229, 231, 235, 1)
 }
 
-.feat{
-
+.hotelnm:hover{
+cursor: pointer;
 }
 
 .ratetext{
@@ -200,7 +207,7 @@ color: rgba(107, 114, 128, 1);
     margin-top: 30px;
     margin-bottom: 30px;
     height: 1px;
-    background: rgba(229, 231, 235, 1);
+    border: 1px solid rgba(229, 231, 235, 1);
 }
 
 .night{
@@ -226,3 +233,7 @@ color: rgba(55, 65, 81, 1);
 
 }
 
+
+.maps{
+    margin-left: 20px;
+}

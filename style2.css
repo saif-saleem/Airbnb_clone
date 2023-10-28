@@ -83,12 +83,31 @@
 }
 
 .rent1{
+    width: 175%;
+    margin-right: 40px;
+}
+
+.rent2{
+    height: 470px;
     width: 100%;
+    border: 1px solid rgba(229, 231, 235, 1);
+    box-shadow: 0px 10px 10px 0px rgba(31, 41, 55, 0.04);
+
+box-shadow: 0px 20px 25px 0px rgba(31, 41, 55, 0.1);
+border-radius: 5px;
+    padding: 35px;
+
 }
 
 .rent{
-    width: 60%;
+    width: 100%;
     display: flex;
+}
+.hr{
+    width: 95%;
+    margin: auto;
+    border: 1px solid rgba(229, 231, 235, 1);
+    margin-top: 10px;
 }
 
 .user{
@@ -122,3 +141,243 @@
     margin-bottom: 30px;
 }
 
+.pricehead{
+    display: flex;
+    width: 95%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.durationtop{
+    display: flex;
+    border-bottom: 1px solid rgba(209, 213, 219, 1);
+    width: 100%;
+    justify-content: space-around;
+    height: 40px;
+}
+.duration{
+    width: 95%;
+    height: 80px;
+    margin: auto;
+    border-radius: 5px;
+    /* border: 1px solid; */
+    border: 1px solid rgba(209, 213, 219, 1)
+}
+
+.duration1{
+    padding: 5px;
+    width: 50%;
+    border-right: 1px solid rgba(209, 213, 219, 1);
+}
+.duration2{
+    
+    display: flex;
+    width: 50%;
+    padding: 5px;
+    justify-content: space-evenly;
+}
+.durationdown{
+    padding: 5px;
+}
+
+.reserve{
+    display: flex;
+    flex-direction: column;
+}
+
+.calculation{
+    display: flex;
+}
+
+.resbtn{
+    width: 95%;
+    margin: auto;
+    height: 40px;
+    margin-top: 20px;
+/* padding: 12px, 16px, 12px, 16px; */
+border-radius: 8px;
+gap: 8px;
+background: rgba(222, 49, 81, 1);
+border: none;
+color: white;
+}
+
+.res{
+    margin-bottom: 30px;
+
+
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+margin-top: 10px;
+text-align: center;
+
+}
+
+.calculation{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 150px;
+}
+
+.cal1{
+    width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+.cal2{
+    width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+.cal3{
+    width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+.cal4{
+    width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+.cal5{
+    width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .total{
+        width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    }
+
+.pricehead{
+    margin-bottom: 20px;
+}
+
+
+
+.reviewhr{
+    width: 92%;
+    margin: auto;
+    border: 1px solid rgba(229, 231, 235, 1);
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.review_section{
+    width: 92%;
+    margin: auto;
+}
+
+.location{
+    width: 92%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.where{
+font-size: 24px;
+font-weight: 500;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+#map{
+    height: 400px;
+    width: 100%;
+}
+
+#locatdesc{
+
+font-size: 18px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+margin-top: 15px;
+    margin-bottom: 10px;
+}
+ 
+#locatdesc2{
+  
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+
+
+}
+
+.host{
+    width: 92%;
+    margin: auto;
+
+}
+
+.hostcont{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.hostimg{
+        display: flex;
+        flex-direction: row;
+        height: 70px;
+        align-items: center;
+}
+.dp{
+    height: 100%;
+}
+
+.hoteldesc{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.de{
+    color: rgba(107, 114, 128, 1);
+
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.contact{
+    width: 20%;
+    padding: 13px;
+    border-radius: 7px;
+    /* border: none; */
+    background: white;
+}
+
+.things{
+    width: 92%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.foot{
+    background: rgba(249, 250, 251, 1);
+    /* width: 92%;
+    margin: auto; */
+    box-shadow: 0px -1px 0px 0px rgba(229, 231, 235, 1) inset;
+
+}

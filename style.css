@@ -34,6 +34,33 @@
     align-items: center;
 }
 
+#submit_btn{
+    width: 0px;
+    height: 0px;
+    background: transparent;
+    border: none;
+    width: 47px;
+    position: relative;
+    right: -22px;
+    height: 37px;
+}
+
+#link_page{
+
+    position: relative;
+    right: 22px;
+    height: 37px;
+    /* width: 0px; */
+    /* width: 43px; */
+}
+
+#search_form{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    
+}
+
 .nav1{
     /* width: 100% ; */
     position: relative;

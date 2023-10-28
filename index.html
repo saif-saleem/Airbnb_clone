@@ -28,36 +28,45 @@
             </nav>
             <div class="nav11">
 
+
+                <form  id="search_form">
                 <label for="searchTerm" id="lb1">
 
-                <input type="text" class="searchTerm" placeholder="Bordeaux" style="border: none;     position: relative;
+                <input type="text" class="searchTerm" placeholder="Bordeaux" id="city" style="border: none;     position: relative;
                 width: 22%; height: 50%;margin-right: 7px;
                 border: none;
                 /* display: flex; */
                 left: 20px;border-right: 1px solid rgba(229, 231, 235, 1)">
 
-                <input type="text" class="searchTerm" placeholder="Feb 19-26" style="border: none;     position: relative;
+                <input type="date" class="searchTerm" placeholder="Check in" id="checkin" style="border: none;     position: relative;
                width: 22%; height: 50%;margin-right: 7px;
                 border: none;
                 /* display: flex; */
                 left: 20px;border-right: 1px solid rgba(229, 231, 235, 1)">
 
-                <input type="text" class="searchTerm" placeholder="2 guests" style="border: none;     position: relative;
+                <input type="date" class="searchTerm" placeholder="Check out" id="checkout" style="border: none;     position: relative;
                 width: 22%; height: 50%;margin-right: 7px;
                 border: none;
                 /* display: flex; */
                 left: 20px;border-right: 1px solid rgba(229, 231, 235, 1)">
 
-                <input type="text" class="searchTerm" placeholder="2 guests" style="border: none;     position: relative;
+                <input type="text" class="searchTerm" placeholder="2 guests" id="guest" style="border: none;     position: relative;
                 width: 23%; height: 50%; margin-right: 7px;
                 border: none;
                 /* display: flex; */
                 left: 20px">
+                
+                
+                
+                <input type="button"  id="submit_btn"onclick="storevalues() "> <img src="./search.svg"  onclick="storevalues()" style="position: relative; z-index: 2;;"></input>
+                <a href="http://127.0.0.1:5500/index4.html" id="link_page">
 
-
-               <img src="./search.svg" alt="" style="position: relative;">
+</a>
 
 </label>
+
+</form>
+
             </div>
 
 <div class="big_card">
@@ -311,6 +320,13 @@ padding-top: 20px; margin-bottom: 10px;">
 
 </div>
     </footer>
+
+
+<script src="./script.js"></script>
+<script src="./script3.js"></script>
+<script src="./script4.js"></script>
+<script src="./script2.js"></script>
+
 
 </body>
 </html>
